@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+  }
+
+  .body{
+    font-family: 'Kanit';
+  }
+
+  .layout {
+    font-family: 'Kanit';
+  }
+  #app {
+    font-family: 'Kanit';
+  }

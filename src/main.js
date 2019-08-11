@@ -4,10 +4,18 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
+// import Vuetify from 'vuetify'
+// import 'vuetify/dist/vuetify.min.css'
+import './styles/font.css'
 
-Vue.use(Vuetify)
+// Vue.use(Vuetify)
+
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.config.productionTip = false
 
