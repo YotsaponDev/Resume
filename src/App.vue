@@ -1,43 +1,36 @@
+<style scoped>
+.bg-custom{
+  background-color: #d33400;
+}
+</style>
 <template>
-  <div>
-    <v-layout>
-      <v-flex xs sm md>
-        <v-card class="mx-auto" :height="screenHeight" width="300" left>
-          <v-navigation-drawer absolute dark :src="require('@/assets/nav.jpg')" width="100%" permanent>
-            <v-list>
-              <v-list-item link>
-                <router-link to="/" tag="v-list-item-content">
-                  <center><span>ABOUT</span></center>
-                </router-link>
-              </v-list-item>
+  <div id="app">
+    <b-navbar toggleable="lg" type="dark" variant="custom">
+    <b-img height="40" rounded="circle" alt="Avatar" :src="require('@/assets/images/avatar.jpg')"></b-img>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-              <v-list-item link>
-                <router-link to="/experience" tag="v-list-item-content">
-                  <center><span>EXPERIENCE</span></center>
-                </router-link>
-              </v-list-item>
-
-              <v-list-item link>
-                <router-link to="/education" tag="v-list-item-content">
-                  <center><span>EDUCATION</span></center>
-                </router-link>
-              </v-list-item>
-
-              <v-list-item link>
-                <router-link to="/skills" tag="v-list-item-content">
-                  <center><span>SKILLS</span></center>
-                </router-link>
-              </v-list-item>
-
-            </v-list>
-          </v-navigation-drawer>
-        </v-card>
-      </v-flex>
-      <v-flex xs sm md>
-        <router-view></router-view>
-      </v-flex>
-    </v-layout>
-
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-brand class="ml-2">YOTSAPON THIMAKHAM</b-navbar-brand>
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-navbar-nav>
+          <router-link to="/" tag="b-nav-item">
+            <span>ABOUT</span>
+          </router-link>
+          <router-link to="/experience" tag="b-nav-item">
+            <span>EXPERIENCE</span>
+          </router-link>
+          <router-link to="/education" tag="b-nav-item">
+            <span>EDUCATION</span>
+          </router-link>
+          <router-link to="/skills" tag="b-nav-item">
+            <span>SKILLS</span>
+          </router-link>
+        </b-navbar-nav>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+  <router-view></router-view>
   </div>
 
 </template>
@@ -46,29 +39,12 @@
   export default {
     data() {
       return {
-        screenHeight: "",
-        items: [
-          ['mdi-email', 'Inbox'],
-          ['mdi-account-supervisor-circle', 'Supervisors'],
-          ['mdi-clock-start', 'Clock-in'],
-        ],
+
       }
     },
     mounted() {
-      this.screenHeight = document.documentElement.clientHeight
+
     },
   }
 
 </script>
-
-<style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-
-</style>

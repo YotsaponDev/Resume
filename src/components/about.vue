@@ -1,7 +1,31 @@
+<style scoped>
+#card1{
+  border: none;
+  border-radius:0px;
+}
+</style>
 <template>
-  <div class="hello">
-    <h1>A Full Stack Developer with 1 year of experience with VueJs, React Native, NodeJS, Asp.Net Core, PHP(Laravel) And RESTful API</h1>
+  <b-container class="bv-example-row">
+  <div class="mt-4">
+    <b-card id="card1" class="mb-3">
+      <b-card-text>
+        <b-row>
+          <b-col md="5" lg="3" xl="3"><b-img :src="require('@/assets/images/image1.jpg')" fluid alt="About image"></b-img></b-col>
+          <b-col>
+            <h2>YOTSAPON THIMAKHAM </h2>
+            <p style="color:#d33400">FULL STACK WEB DEVELOPER</p>
+            A Full Stack Developer with 1 year of experience with VueJs, React Native, NodeJS, Asp.Net Core, PHP(Laravel) And RESTful API
+            
+            <br> <br>
+            Address: 
+            </b-col>
+        </b-row>
+        
+      </b-card-text>
+    </b-card>
   </div>
+
+  </b-container>
 </template>
 
 <script>
