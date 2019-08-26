@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import about from '@/components/about'
-import experience from '@/components/experience'
-import education from '@/components/education'
-import skills from '@/components/skills'
+import about from '../src/components/about'
+import experience from '../src/components/experience'
+import education from '../src/components/education'
+import skills from '../src/components/skills'
 
 Vue.use(Router)
 
