@@ -206,8 +206,253 @@
         </div>
         <div class="row">
           <div class="col">
+            <h5>Marketplace to buy, rent and sell property</h5>
+            <font>Mar. 2020 - Currently</font><br>
+            <font>Thathrit Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/hautse1.jpg')" fluid alt="Responsive image"></b-img><br><br>
+              <b-img :src="require('@/assets/images/hautse2.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>
+              &emsp;&emsp;&emsp;The company is a startup company that wants to develop their own website. 
+              Therefore, I have an idea to develop a website about the marketing of leasing, buying and 
+              selling assets in the form of long-term leases contracts which all processes can be carried out 
+              through the entire website or the website as a one stop service, whether contacting via chat system, 
+              making an appointment to view the room and making a contract.
+            </p>
+            <h5>Roles / Responsibilities</h5>
+            <p>
+              &emsp;&emsp;&emsp;Perform tasks assigned to front-end, back-end, and saver.
+              The main work done is The structure of the entire web application layer, whether it is a front end 
+              that uses Nuxt.Js to develop which is suitable for SEO, in the back end is used PHP(Laravel), 
+              Node.JS with Express.JS as a service or server, uses Docker as a building environment, and works with 
+              NGINX to reverse-proxy.
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Nuxt.Js (Vue.Js Framwork) <br>
+              - - BootstrapVue <br>
+              - - Vuetify.Js <br>
+              - - JavaScript <br><br>
+              Back-end<br>
+              - Laravel (php) <br>
+              - Node.Js <br>
+              - Express.Js <br>
+              - Socket.IO <br>
+              - MySql Database<br><br>
+              Docker<br>
+              Nginx<br>
+              Jenkins<br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
+            <h5>Engagement and Advertising</h5>
+            <font>May. 2020 - Feb. 2021</font><br>
+            <font>Thathrit Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/cmmnground1.jpg')" fluid alt="Responsive image"></b-img><br><br>
+              <b-img :src="require('@/assets/images/cmmnground2.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>
+              &emsp;&emsp;&emsp;The company is a startup company that wants to develop their own website. 
+              Therefore, I have an idea to develop a website about advertising, marketing online in 
+              conjunction with the world's leading brands, products and companies. Polls are included in the 
+              content to keep users engaged with the website. Which is a key feature in web development.
+            </p>
+            <h5>Roles / Responsibilities</h5>
+            <p>
+              &emsp;&emsp;&emsp;Perform tasks assigned to front-end, back-end, and saver.
+              The main work done is The structure of the entire web application layer, whether it is a front end 
+              that uses Nuxt.Js to develop which is suitable for SEO, in the back end is used PHP(Laravel),
+              uses Docker as a building environment, and works with NGINX to reverse-proxy.
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Nuxt.Js (Vue.Js Framwork) <br>
+              - - BootstrapVue <br>
+              - - Vuetify.Js <br>
+              - - JavaScript <br><br>
+              Back-end<br>
+              - Laravel (php) <br>
+              - MySql Database<br><br>
+              Docker<br>
+              Nginx<br>
+              Jenkins<br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
             <h5>EGP - The Thai Bar Under The Royal Patronage</h5>
-            <font>Jan 2020 – Mar 2020</font><br><br>
+            <font>Jan. 2020 - Feb. 2020</font><br>
+            <font>Zawanna Technology Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/tb1.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>
+              &emsp;&emsp;&emsp;Create an overall corporate business resource planning program.
+              To achieve maximum utilization of the business resources of the organization.
+              Is a system that is used to manage and plan the use of various resources of the organization.
+              It is a system that connects various systems of the organization together, for example,
+              if it is an ERP of a company, it will include from accounting and financial systems, work systems
+              human resources production management system Including a distribution system to help the planning
+              and management of the company's resources more efficiently, reducing time and procedures. working as well
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Vue.Js Framework <br>
+              - - Bootstrap 4 <br>
+              - - JavaScript <br><br>
+              Back-end<br>
+              - Laravel (php) <br>
+              - Postgresql Database<br><br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
+            <h5>EGP - Rajamangala University of Technology Tawan-ok</h5>
+            <font>Jan. 2019 - Feb. 2020</font><br>
+            <font>Zawanna Technology Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/rmutto1.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>
+              &emsp;&emsp;&emsp;Create an overall corporate business resource planning program.
+              To achieve maximum utilization of the business resources of the organization.
+              Is a system that is used to manage and plan the use of various resources of the organization.
+              It is a system that connects various systems of the organization together, for example,
+              if it is an ERP of a company, it will include from accounting and financial systems, work systems
+              human resources production management system Including a distribution system to help the planning
+              and management of the company's resources more efficiently, reducing time and procedures. working as well
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Vue.Js Framework <br>
+              - - Bootstrap 4 <br>
+              - - JavaScript <br><br>
+              Back-end<br>
+              - Laravel (php) <br>
+              - Postgresql Database<br><br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
+            <h5>EGP - Srisavarindhira Thai Red Cross Institute of Nursing</h5>
+            <font>Jan. 2019 - Feb. 2020</font><br>
+            <font>Zawanna Technology Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/stin1.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>
+              &emsp;&emsp;&emsp;Create an overall corporate business resource planning program.
+              To achieve maximum utilization of the business resources of the organization.
+              Is a system that is used to manage and plan the use of various resources of the organization.
+              It is a system that connects various systems of the organization together, for example,
+              if it is an ERP of a company, it will include from accounting and financial systems, work systems
+              human resources production management system Including a distribution system to help the planning
+              and management of the company's resources more efficiently, reducing time and procedures. working as well
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Vue.Js Framework <br>
+              - - Bootstrap 4 <br>
+              - - JavaScript <br><br>
+              Back-end<br>
+              - Laravel (php) <br>
+              - Postgresql Database<br><br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
+            <h5>Procurement announcement system from e-GP system (Bangkok)</h5>
+            <font>Oct. 2019 - Nov. 2019</font><br>
+            <font>Zawanna Technology Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/bkk1.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>
+              &emsp;&emsp;&emsp;Bangkok is a government agency. which is subject to the Procurement Act 2017 and
+              the Ministry of Finance's Regulations on Public Procurement and Supplies Management B.E. 2560,
+              require government agencies to announce information dissemination in information technology
+              systems. of government agencies (Bangkok website www.bangkok.go.th)<br>
+              &emsp;&emsp;&emsp;Therefore, in order to establish a system for disseminating information about Bangkok Procurement,
+              to be transparent and to allow fair competition Encourage the public to participate in the audit
+              Prevent corruption and misconduct in procurement Build public confidence by ensuring that
+              Bangkok Metropolitan Administration's procurement operations rely on four principles: cost-effectiveness,
+              transparency, efficiency and effectiveness. and can check In accordance with the government procurement
+              and supplies management regulations, B.E. 2560,
+              therefore, one system for disseminating information on procurement under the new Act (e-GP) should be
+              developed.
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Nuxt.Js (Vue.Js Framwork) <br>
+              - - BootstrapVue <br>
+              - - JavaScript <br><br>
+              Back-end<br>
+              - C# Asp.net core 2 <br>
+              - OAuth 2 for authentication <br>
+              - Postgresql Database<br><br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
+            <h5>Online service system (e-Service) - Thailand Institute of Nuclear Technology (Public Organization)</h5>
+            <font>May 2018 - Jan 2019</font><br>
+            <font>Zawanna Technology Co., Ltd.</font><br><br>
+            <div class="text-center">
+              <b-img :src="require('@/assets/images/tint1.jpg')" fluid alt="Responsive image"></b-img>
+            </div><br>
+            <p>Nuclear Technology Service System Development Project to support Smart Service</p>
+            <p>
+              1. Background <br>
+              &emsp;&emsp;&emsp;Currently, Thailand is having a policy to develop the economy and society 
+              towards the digital age. Government agencies will be transformed into Digital Government, 
+              so government agencies need to increase service efficiency to be faster, more convenient 
+              and improve quality to meet the needs of users.<br>
+              &emsp;&emsp;&emsp;So that people can access services by themselves (Self-Service) through 
+              online channels from computer or portable devices (Smart Devices), such as Smart Phones 
+              and Tablets, etc., by improving the services, such as repairing radiological equipment, radiation 
+              meter calibration services, radiography equipment inspection services. and analytical measurement 
+              services of the Institute.<br>
+              &emsp;&emsp;&emsp;The Institute of Nuclear Technology recognizes the importance of upgrading such services. 
+              Therefore, a project to develop a nuclear technology service system was established. To support the service 
+              of Smart Service for the people to be convenient to receive the service. Reduce costs and time to contact 
+              government agencies and can track the service status easily and quickly.
+              <br><br>
+
+              2. Objectives <br>
+              &emsp;&emsp;&emsp;In this field of work, the institute has a desire to develop a commercial online 
+              service system. This will be a channel for institutional customers to access various services by 
+              themselves (service portal) through a web browser and also as a tool for institutional staff to 
+              provide various services (back office process management). Develop this online service system to 
+              make this online service system look like a platform for all institutional services. both existing 
+              and services that will be developed in the future The institution's clients will be able to log in 
+              to request a quote, order a service, track job status, notify payment of services and receive reports 
+              from the one stop service institute
+            </p>
+            <h5>Language and development tools </h5>
+            <p>
+              Font-end<br>
+              - Razor Pages Asp.net Core<br>
+                - Bootstrap 4<br>
+                - JavaScript<br>
+                - jQuery<br>
+                - Ajax<br><br>
+              Back-end<br>
+              - C# Asp.net core 2 <br>
+              - OAuth 2 for authentication <br>
+              - Postgresql Database<br><br>
+              NPM<br>
+              Git Source Control<br>
+            </p>
+            <hr>
           </div>
         </div>
       </div>
@@ -249,7 +494,7 @@
               ++this.counter_banner_text
             this.WriteText()
           }
-        }, 180);
+        }, 100);
         // if(this.counter_banner_text == (this.count_banner_text-1)){
         //     clearTimeout(sto);
         //     console.log("Ssss");
@@ -320,7 +565,7 @@
     padding-bottom: 96px;
   }
 
-  #work-experience{
+  #work-experience {
     padding-top: 96px;
     padding-bottom: 96px;
   }
