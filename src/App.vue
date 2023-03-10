@@ -3,20 +3,56 @@
     <div id="banner">
       <div class="container-fluid h-100">
         <div class="row align-items-center h-100">
-          <div class="col-12 col-md-6">
-            x
+          <div class="col pl-0 pr-0 pr-md-4 h-100">
+            <div class="d-flex h-100 align-items-center">
+              <div class="text-center banner-left" v-if="windowsize.width >= 768">
+                <div class="banner-left-content">
+                  <b-avatar :src="require('@/assets/images/avatar.jpg')" alt="avatar" size="200px" class="avatar"></b-avatar>
+                  <h5 class="mt-4" style="color: white;">
+                    YOTSAPON THIMAKHAM
+                  </h5>
+                  <span style="font-size: 14px;color: #c1c1c1;">FULL STACK WEB DEVELOPER</span><br />
+                  <div class="d-flex justify-content-center mt-4">
+                    <a href="https://github.com/YotsaponDev" style="text-decoration: none;">
+                      <i class="devicon-github-original mr-2" style="font-size: 1.4em;cursor:pointer; color: #ffffff;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/boss-yotsapon/" style="text-decoration: none;">
+                      <i class="devicon-linkedin-plain colored mr-2" style="font-size: 1.4em;cursor:pointer;color: #ffffff;"></i>
+                    </a>
+                    <a href="https://www.facebook.com/boss.yotsapon" style="text-decoration: none;">
+                      <i class="devicon-facebook-original colored mr-2" style="font-size: 1.4em;cursor:pointer; color: #ffffff;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center w-100">
+                <div>
+                  <b-avatar v-if="windowsize.width < 768" :src="require('@/assets/images/avatar.jpg')" alt="avatar" size="170px" class="avatar mb-5"></b-avatar>
+                  <h3 id="text-hello">
+                    YOTSAPON THIMAKHAM
+                  </h3>
+                  <h5 id="text-develop">
+                    {{banner_text_render}}
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-md-6 text-center text-md-left">
+          <!-- <div class="col-12 col-md-4 text-center banner-left">
+            <div class="banner-left-content">
+              <b-avatar :src="require('@/assets/images/avatar.jpg')" alt="avatar" size="200px"></b-avatar>
+            </div>
+          </div>
+          <div class="col-12 col-md text-center">
             <div>
               <h3 id="text-hello">
-                HELLO! I AM
+                YOTSAPON THIMAKHAM
               </h3>
               <h5 id="text-develop">
                 {{banner_text_render}}
-                <!-- FULL STACK WEB DEVELOPER -->
               </h5>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -52,7 +88,7 @@
             <div class="row">
               <div class="col-12 col-md-6">
                 <p>
-                  I'm a full stack web developer with 3 years of experience. I'm from Bangkok, Thailand.
+                  I'm a full stack web developer with 4 years of experience. I'm from Bangkok, Thailand.
                   I love coding as my soul to get the best results for work and believe that working with
                   a good teamwork will give good results as well.
                 </p>
@@ -65,12 +101,8 @@
                       <td>Yotsapon Thimakham</td>
                     </tr>
                     <tr>
-                      <td>Birthday:</td>
-                      <td>February 27, 1995</td>
-                    </tr>
-                    <tr>
                       <td>Age:</td>
-                      <td>{{calculateAge(new Date(1995, 2, 27))}} Years</td>
+                      <td>{{calculateAge(new Date("1995/02/27"))}}</td>
                     </tr>
                     <tr>
                       <td>Language:</td>
@@ -82,7 +114,7 @@
                     </tr>
                     <tr>
                       <td>Tel:</td>
-                      <td>(+66)95-742-4839</td>
+                      <td>(+66)9-5742-4839</td>
                     </tr>
                     <tr>
                       <td>Email</td>
@@ -230,7 +262,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Nuxt.Js (Vue.Js Framwork) <br>
               - - BootstrapVue <br>
               - - Vuetify.Js <br>
@@ -270,7 +302,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Nuxt.Js (Vue.Js Framwork) <br>
               - - BootstrapVue <br>
               - - Vuetify.Js <br>
@@ -302,7 +334,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Vue.Js Framework <br>
               - - Bootstrap 4 <br>
               - - JavaScript <br><br>
@@ -330,7 +362,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Vue.Js Framework <br>
               - - Bootstrap 4 <br>
               - - JavaScript <br><br>
@@ -358,7 +390,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Vue.Js Framework <br>
               - - Bootstrap 4 <br>
               - - JavaScript <br><br>
@@ -391,7 +423,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Nuxt.Js (Vue.Js Framwork) <br>
               - - BootstrapVue <br>
               - - JavaScript <br><br>
@@ -439,7 +471,7 @@
             </p>
             <h5>Language and development tools </h5>
             <p>
-              Font-end<br>
+              Front-end<br>
               - Razor Pages Asp.net Core<br>
                 - Bootstrap 4<br>
                 - JavaScript<br>
@@ -453,6 +485,16 @@
               Git Source Control<br>
             </p>
             <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="footer">
+      <div class="container">
+        <div class="row p-0 text-center">
+          <div class="col text-center">
+            Presented by Yotsapon Thimakham © 2023 <br>
+            Tel. +669 5742 4839
           </div>
         </div>
       </div>
@@ -484,11 +526,10 @@
         this.handleResize();
       });
       this.WriteText()
-      console.log(this.count_banner_text);
     },
     methods: {
       WriteText() {
-        let sto = setTimeout(() => {
+        setTimeout(() => {
           if (this.counter_banner_text < this.count_banner_text) {
             this.banner_text_render = this.banner_text_render + this.banner_text.charAt(this.counter_banner_text)
               ++this.counter_banner_text
@@ -530,7 +571,22 @@
   }
 
   #banner {
-    background-color: #ebfdff;
+    background-color: rgb(18, 18, 18);
+  }
+
+  .banner-left{
+    /* background: linear-gradient(180deg, rgba(147,251,255,1) 0%, rgba(41,253,204,1) 100%); */
+    background-color: rgb(49, 49, 49);
+    height: inherit;
+    width: 450px;
+  }
+
+  .banner-left-content{
+    margin-top: 150px;
+  }
+
+  .avatar{
+    border: 5px solid #ffffff;
   }
 
   #about {
@@ -540,11 +596,13 @@
 
   #text-hello {
     font-size: 48px;
+    color: white;
   }
 
   #text-develop {
     font-family: consolas;
-    font-size: 36px;
+    font-size: 28px;
+    color: white;
   }
 
   #biography {
@@ -566,6 +624,12 @@
   }
 
   #work-experience {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  #footer {
+    background-color: #f8f8f8;
     padding-top: 96px;
     padding-bottom: 96px;
   }
